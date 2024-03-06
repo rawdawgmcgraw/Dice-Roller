@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D8</title>
+    <link rel="stylesheet" href="rollDie.css">
+</head>
+<body>
+    <img src="images/D8.png" alt="D8 die" id="diceImg"><br>
+    <label for="diceImg">You are rolling with D8 dice</label>
+    
+    <hr size="5px" color="black"><br>
+
+    <div class="input">
+        <label for="numOfDice">How many dice would you like to roll? (1-4) :</label><br>
+        <input type="number" value="1" id="numOfDice" min="1" max="4">
+        <label for="numOfDice"></label><button onclick="rollDice()">ROLL</button>
+        <div id="rollResult"></div>
+        <div id="rollDiceImg"></div>
+    </div>
+</body>
+<script src="rollD8.js"></script>
+</html>

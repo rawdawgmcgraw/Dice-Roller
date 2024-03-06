@@ -1,0 +1,29 @@
+*{
+    font-family: Helvetica;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3em;
+}
+h3{
+    text-align: center;
+    font-size: 1.3em;
+}
+.navBar ul{
+    list-style-type: none;
+    background-color: hsl(0, 78%, 59%);
+    padding: 0px;
+    margin: 0px;
+}
+.navBar a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navBar a:hover{
+    color: hsl(58, 89%, 61%);
+    border: 2px solid hsl(0, 66%, 38%);
+}

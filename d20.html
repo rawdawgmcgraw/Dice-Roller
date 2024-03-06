@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d20</title>
+    <link rel="stylesheet" href="rollDie.css">
+</head>
+<body>
+    <img src="images/D20.png" alt="D20 die" id="diceImg"><br>
+    <label for="diceImg">You are rolling with a d20 die</label>
+    
+    <hr size="5px" color="black"><br>
+
+    <div class="input">
+        <label for="numOfDice">You can only roll 1 D20 :</label><br>
+        <input type="number" value="1" id="numOfDice" min="1" max="1">
+        <label for="numOfDice"></label><button onclick="rollDice()">ROLL</button>
+        <div id="rollResult"></div>
+        <div id="rollDiceImg"></div>
+    </div>
+    
+</body>
+<script src="rollD20.js"></script>
+</html>

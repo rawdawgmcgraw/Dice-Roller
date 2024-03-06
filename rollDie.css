@@ -1,0 +1,43 @@
+*{
+    font-family: Helvetica;
+    text-align: center;
+}
+#diceImg{
+    transform: scale(1.2);
+    margin: 20px;
+}
+label{
+    position: relative;
+    font-size: 1.5em;
+}
+.input label{
+    position: relative;
+    padding: 12px;
+
+}
+.input button{
+    margin: 15px;
+    scale: 1.7;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(348, 87%, 47%);
+}
+#numOfDice{
+    margin: 25px;
+    width: 80px;
+    transform: scale(1.8);
+}
+.input button:hover{
+    background-color: hsl(240, 100%, 50%);
+}
+.input button:active{
+    color: hsl(348, 87%, 47%);
+}
+#rollResult{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 25px;
+}
+#rollDiceImg{
+    scale: 1.25;
+}
