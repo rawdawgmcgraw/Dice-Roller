@@ -9,7 +9,7 @@ function rollDice(){
     for(let i = 0; i < numOfDice; i++){
         const value = Math.floor(Math.random() * 12) + 1;
         values.push(value);
-        imgs.push(`<img src="images/d12/${value}.png">`);
+        imgs.push(`<img src="/images/d12/${value}.png">`);
     }
 
     rollResult.textContent = `Dice: ${values.join(', ')}`;

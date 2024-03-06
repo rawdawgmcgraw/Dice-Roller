@@ -40,4 +40,16 @@ label{
 }
 #rollDiceImg{
     scale: 1.25;
+    margin-bottom: 15px;
+}
+#home{
+    font-size: 1.25em;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(348, 87%, 47%);
+}
+#home:hover{
+    background-color: hsl(240, 100%, 50%);
+}
+#home:active{
+    color: hsl(348, 87%, 47%);
 }
